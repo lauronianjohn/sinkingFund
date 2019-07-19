@@ -19,7 +19,7 @@
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
-html, body {height: 100%; font-family: 'Roboto', sans-serif;font-weight:400;background:#152036;}
+html, body {height: 100%; font-family: 'Roboto', sans-serif;font-weight:400;background:#152036;color:#fff}
 .floatleft {float:left}
 .floatright {float:right}
 .alignleft {float:left;margin-right:15px;margin-bottom: 15px}
@@ -2484,7 +2484,8 @@ ul.tab-custon-design li.active a, ul.tab-review-design li.active a{
 }
 .cancel-wp .btn-white, .cancel-wp .btn-white:active, .cancel-wp .btn-white:focus{
 	border-radius:0px;
-	outline:none;
+    outline:none;
+    color: #000;
 }
 .file-upload-inner.ts-forms input[type="text"]:hover, .file-upload-inner.ts-forms input[type="text"]:focus, .file-upload-inner.ts-forms input[type="text"]:active, .file-upload-inner.ts-forms .file-button:hover + input{
 	border: 1px solid #e12503;
@@ -2913,7 +2914,7 @@ ul.mailbox-list li:hover a, ul.h-list li:hover a {
 }
 .main-sparkline8-hd h1, .main-sparkline9-hd h1, .main-spark7-hd h1, .main-sparkline10-hd h1, .main-sparkline11-hd h1, .main-sparkline12-hd h1, .main-sparkline13-hd h1, .main-sparkline14-hd h1{
 	font-size:20px;
-	color:#303030;
+    color: #fff;
 }
 .basic-choropleth {
     height: 400px;
